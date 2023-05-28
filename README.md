@@ -1,7 +1,7 @@
 <div id="Header" align="center">
 
    <img src="https://media.giphy.com/media/kR4Hv9lSy5ptAnck0u/giphy.gif" width="300">   
-   <h1 align="center">To - Do Priority 📋 - Trasladando a React Native</h1>
+   <h1 align="center">To - Do Priority (JavaScript) 📋 - Finalizado</h1>
 
 </div>
    
@@ -9,7 +9,7 @@
 
 - Abra la terminal de su computador.
 - Entre al directorio de su preferencia usando (cd "nombre del directorio")
-- Si usted tiene una clave SSH ejecute el comando "git clone git@github.com:NicolasEstebanCuervo/News.git"
+- Si usted tiene una clave SSH ejecute el comando "git clone git@github.com:NicolasEstebanCuervo/ToDoPriorityJsWeb.git"
 - Abra el repositorio clonado en su editor de codigo de preferencia.
 - En la terminal del editor de codigo ejecute el comando "npm start".
 
@@ -17,7 +17,7 @@
 
 - Abra la terminal de su computador.
 - Entre al directorio de su preferencia usando (cd "nombre del directorio")
-- Si usted no tiene una clave SSH tambien puede usar el metodo git clone con HHTTPS. Solamente tiene que ejecutar el comando "git clone https://github.com/NicolasEstebanCuervo/News.git"
+- Si usted no tiene una clave SSH tambien puede usar el metodo git clone con HHTTPS. Solamente tiene que ejecutar el comando "git clone https://github.com/NicolasEstebanCuervo/ToDoPriorityJsWeb.git"
 - Abra el repositorio clonado en su editor de codigo de preferencia.
 - En la terminal del editor de codigo ejecute el comando "npm start".
 
@@ -44,6 +44,9 @@ En caso tal de que te interese alguna de las librerias usadas aca te dejo una li
 - Uuid : npm install uuid.
 - Emotion : npm install @emotion/react @emotion/styled.
 - StoryBook : npm install -g storybook
+- Emotion Css : npm install@emotion/css.
+- Emotion React : npm install @emotion/react.
+- Emotion Styled : npm install @emotion/styled.
 
 ###  📚 Ejecucion de StoryBook:
 
