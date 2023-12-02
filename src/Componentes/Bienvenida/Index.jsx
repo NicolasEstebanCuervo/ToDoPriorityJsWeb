@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 
 const ContenedorBienvenida = styled.div`
   margin:auto;
-  width: 70vw;
+  width: 80vw;
   position: relative;
   height: auto;
   padding: 10% 0;
@@ -27,10 +27,25 @@ const TextoBienvenida = styled.h1`
   display: inline-block;
   vertical-align: middle;
   font-size: 30px;
+  @media (max-width: 1250px) {
+        font-size:25px;
+    }
 
-  @media (max-width: 700px) {
-    font-size: 5vw;
-  }
+    @media (max-width: 750px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 5vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 6vw;
+    }
+
+    @media (max-width: 250px) {
+        font-size: 8vw;
+    }
 `
 
 const Bienvenida = ({ textoBienvenida, hidden}) => {
